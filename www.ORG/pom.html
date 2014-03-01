@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="../../css/ista.css">
+        <script src="/pgdd/js/libs/jw/dd/dd.js"></script>    
+        <script src="/pgdd/js/libs/jquery/jquery.js"></script>    
+        <script src="/pgdd/js/libs/json3/json3.js"></script>    
+
+
+
+
+<TITLE>Current Phase of the Moon</TITLE>
+</HEAD>
+<body>
+<script language="JavaScript">;
+age=AgeOfMoon();
+phase=PhaseOfMoon(age);
+document.write("<span class=\"p-small\">");
+document.write("<P>The moon is ");
+if (age>0)
+	document.write("waxing ");
+else document.write("waning ");
+if (phase>0.875)
+	document.write("full");
+else if (phase>0.625)
+	document.write("three-quarter");
+else if (phase>0.375)
+	document.write("half");
+else if (phase>0.125)
+	document.write("one quarter");
+else document.write("new");
+document.write("<BR>");
+document.write("(age=" + age + ", ");
+document.write("phase=" + phase + ")</P>");
+document.write("</B></span>");
+</script>
+</BODY>
+</HTML>

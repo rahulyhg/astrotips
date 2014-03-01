@@ -1,0 +1,40 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script src="/pgdd/js/libs/jw/dd/dd.js"></script>    
+        <script src="/pgdd/js/libs/jquery/jquery.js"></script>    
+        <script src="/pgdd/js/libs/json3/json3.js"></script>    
+
+    </head>
+    <body>
+        
+        1
+        <div>Today</div>
+        <div id="todo">
+            What todo today.
+        </div>
+
+        <script>
+            $(window).load(function() {
+
+                var data = readRs();
+                //            dump(data.planets.sun.e,'alert',0);
+
+                var str = data.planets.sun.e +" "+data.aspects.trine.p +" "+ data.planets.venus.e;
+        
+                document.getElementById("todo").innerHTML = str;
+            });
+        </script>
+        <a href="as.html">as</a><br>
+        <a href="pom.html">pom</a>
+    </body>
+</html>

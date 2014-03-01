@@ -1,0 +1,4 @@
+#export PATH=${PATH}:/opt/adt/sdk/tools:/opt/adt/sdk/platform-tools
+export ANDROID_HOME=/opt/adt/sdk/tools
+export ANDROID_PLATFORM_TOOL=/opt/adt/sdk/platform-tools
+

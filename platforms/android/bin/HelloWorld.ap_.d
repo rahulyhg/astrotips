@@ -1,0 +1,23 @@
+/store/jw/src/dailydirection/platforms/android/bin/HelloWorld.ap_ \
+ : /store/jw/src/dailydirection/platforms/android/res/drawable/icon.png \
+/store/jw/src/dailydirection/platforms/android/res/drawable-hdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/res/drawable-ldpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/res/drawable-mdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/res/drawable-xhdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/res/values/strings.xml \
+/store/jw/src/dailydirection/platforms/android/res/xml/config.xml \
+/store/jw/src/dailydirection/platforms/android/bin/res/drawable-hdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/bin/res/drawable-ldpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/bin/res/drawable-mdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/bin/res/drawable-xhdpi/icon.png \
+/store/jw/src/dailydirection/platforms/android/bin/res/drawable/icon.png \
+/store/jw/src/dailydirection/platforms/android/assets/www \
+/store/jw/src/dailydirection/platforms/android/assets/www/as.html \
+/store/jw/src/dailydirection/platforms/android/assets/www/config.xml \
+/store/jw/src/dailydirection/platforms/android/assets/www/index.html \
+/store/jw/src/dailydirection/platforms/android/assets/www/pom.html \
+/store/jw/src/dailydirection/platforms/android/assets/www/test.html \
+/store/jw/src/dailydirection/platforms/android/assets/www/cordova.js \
+/store/jw/src/dailydirection/platforms/android/assets/www/cordova_plugins.js \
+/store/jw/src/dailydirection/platforms/android/assets/www/phonegap.js \
+/store/jw/src/dailydirection/platforms/android/bin/AndroidManifest.xml \
